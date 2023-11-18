@@ -14,7 +14,7 @@ The API consists of a list of games with data such as name, year of release, des
 |Endpoints                              | Usage                                 | Params                                      |
 |---------------------                  | --------------------------            | ------------------------------------------- |
 |`GET  /games`                      | Get all of the games                  |  -------------------------------------------|
-|`GET  /games/:id`                 | Get all of ads by game id             | **id**: [Number]                            | 
+|`GET  /games/:id`                 | Get a game by id           | **id**: [Number]                            | 
 |`GET  /lists`                      | Get all lists                         | -------------------------------------------|
 |`GET  /lists/:id/games`         | Get all games by list id              | **id**: [Number]                            |
 |`POST /lists/:id/replacement` | Move a game to other list position    | **id**: [Number]                             |
